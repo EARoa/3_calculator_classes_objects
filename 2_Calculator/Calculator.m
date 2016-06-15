@@ -10,27 +10,24 @@
 
 @implementation Calculator
 
-
 - (double) add:(double) firstNumber secondNumber:(double) secondNumber{
-    double valueString =  firstNumber+secondNumber;
-    return valueString;
+    return firstNumber+secondNumber;
+    
 }
 
 
 - (double) subtract:(double) firstNumber secondNumber:(double) secondNumber{
-    double valueString =  firstNumber-secondNumber;
-    return valueString;
+    return firstNumber-secondNumber;
 }
 
 - (double) multiply:(double) firstNumber secondNumber:(double) secondNumber{
-    double valueString =  firstNumber*secondNumber;
-    return valueString;
+    return firstNumber*secondNumber;
 }
 
 - (double) divide:(double) firstNumber secondNumber:(double) secondNumber{
-    double valueString =  firstNumber/secondNumber;
-    return valueString;
+    return firstNumber/secondNumber;
 }
-    
+
+
 
 @end
